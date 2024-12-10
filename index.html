@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudoku</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.userway.org/widget.js" data-account="3uEfHHUJK6"></script>
+
+</head>
+<body>
+  <div class="box">
+    <h2>DICAS</h2>
+    <p>1. Comece pelas linhas, colunas ou subgrades com mais números preenchidos</p>
+    <p>2. Use o método de eliminação</p>
+    <p>3. Comece pelas áreas mais preenchidas</p><br>
+    <h2>O OBJETIVO DO JOGO</h2>
+    <p>Preencher todas as células da grade de forma que:<br>
+
+      Cada número de 1 a 9 apareça apenas uma vez em cada linha.<br>
+      Cada número de 1 a 9 apareça apenas uma vez em cada coluna.<br>
+      Cada número de 1 a 9 apareça apenas uma vez em cada subgrade (3x3).<br>
+      </p>
+  </div>  
+    
+  <div id="sudoku-container"></div>
+  <div id="timer">Tempo: 00:00</div>
+  <button id="check-sudoku">Verificar</button><br >
+  <button id="start-button">Iniciar Temporizador</button>
+  <button id="pause-button" disabled>Pausar Temporizador</button>
+  <button id="reset-button" disabled>Reiniciar Temporizador</button>
+  <p id="result-message"></p>
+  
+  <div id="faq-container">
+    <h2>Perguntas de Matemática</h2>
+    
+    <div class="faq">
+      <h3 class="faq-question">1. {[3 + (2 × 4)] - 5} = ?      </h3>
+      <p class="faq-answer">Resposta: 6</p>
+    </div>
+    
+    <div class="faq">
+      <h3 class="faq-question">2. {(6 + 3) × [8 - (3 + 2)]} = ?</h3>
+      <p class="faq-answer">Resposta: 27</p>
+    </div>
+    
+    <div class="faq">
+      <h3 class="faq-question">3. [12 ÷ (4 + 2)] + {3 × (2 + 1)} = ?</h3>
+      <p class="faq-answer">Resposta: 11</p>
+    </div>
+    
+    <div class="faq">
+      <h3 class="faq-question">4. {[10 - (2 × 3)] + 6} ÷ 2 = ?</h3>
+      <p class="faq-answer">Resposta: 5</p>
+    </div>
+    
+    <div class="faq">
+      <h3 class="faq-question">5. [5 × {3 + (2 + 1)}] - 4 = ?</h3>
+      <p class="faq-answer">Resposta: 26</p>
+    </div>
+    
+    <div class="faq">
+      <h3 class="faq-question">6. {(8 ÷ 4) + [3 × (2 + 1)]} = ?</h3>
+      <p class="faq-answer">Resposta: 11</p>
+    </div>
+    
+    <div class="faq">
+      <h3 class="faq-question">7. [(15 - 5) ÷ 2] + {6 × (3 - 1)} = ?</h3>
+      <p class="faq-answer">Resposta: 17</p>
+    </div>
+    
+    <div class="faq">
+      <h3 class="faq-question">8. {[6 × (4 - 2)] + (8 ÷ 4)} ÷ 2 = ?</h3>
+      <p class="faq-answer">Resposta: 7</p>
+    </div>
+    
+    <div class="faq">
+      <h3 class="faq-question">9. [{(5 + 3) × 2} - (6 ÷ 3)] + 4 = ?</h3>
+      <p class="faq-answer">Resposta: 18</p>
+    </div>
+  </div>
+
+  <br><br><br>
+  <iframe width="560" height="315" 
+  src="videos/mp4.mp4" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
+<br><br><br>
+  
+  <script src="script.js"></script>
+  
+</body>
+</html>
+
